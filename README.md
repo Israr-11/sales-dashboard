@@ -14,15 +14,7 @@ Open your favorite browser and navigate to http://localhost:3000 to experience t
 
 The app will automatically reload as you make changes, and any lint errors will be displayed in the console.
 
-## Step 3: Testing
-
-Run the interactive test runner using:
-
-npm test
-
-Refer to the running tests documentation for more information.
-
-## Step 4: Build for Production
+## Step 3: Build for Production
 
 To build the app for production, use:
 
