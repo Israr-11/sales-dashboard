@@ -1,9 +1,9 @@
-
+import DashboardView from "./views/Dashboard/DashboardView";
 
 function App() {
   return (
-    <div>
-
+    <div className="App">
+      <DashboardView />
     </div>
   );
 }
