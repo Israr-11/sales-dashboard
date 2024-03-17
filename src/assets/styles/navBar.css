@@ -1,0 +1,8 @@
+.nav-tabs{
+    border-width: 0;
+    --bs-nav-tabs-border-color:"white"
+}
+
+.img-fluid{
+    max-width: 50%;
+}

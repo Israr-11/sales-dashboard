@@ -6,7 +6,11 @@ import { Nav, ListGroup } from "react-bootstrap";
 
 const SideBar = () => {
     return (
-        <Nav className="flex-column m-5">
+        <Nav className="flex-column m-3">
+          <ListGroup horizontal className="mb-4">
+                <ListGroup.Item><FontAwesomeIcon icon={IconSet.toolbox} /></ListGroup.Item>
+                <ListGroup.Item>  <h5>Admin</h5></ListGroup.Item>
+            </ListGroup>
 
             <ListGroup horizontal>
                 <ListGroup.Item><FontAwesomeIcon icon={IconSet.dashboard} /></ListGroup.Item>
